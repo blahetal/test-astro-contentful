@@ -23,10 +23,10 @@ const entries = await contentfulClient.getEntries<BlogPost>({
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>Astro - contentful demo</title>
   </head>
   <body>
-    <h1>Astro</h1>
+    <h1>Astro - contentful demo</h1>
     {
       entries.items.map((item) => (
         <section>
