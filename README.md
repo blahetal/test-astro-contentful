@@ -6,10 +6,12 @@
 
 ## Code
 
-Vsechno dulezity se nacita [tady](src/pages/index.astro)
-1. skript mezi `---` se spousti pri generovani staticky stranky
-2. z CMS se stahnout data
-2. data se poslou do sablony, kde se zobrazi jako list
+Vsechno dulezity se nacita v kodu [tady](src/pages/index.astro)
+1. v CMS se nadefinuje content model - struktura dat, ktery chci zobrazovat
+2. v CMS se nadefinuje content - napisu vlastni obsah
+3. SSG vygenerovani stranky - skript mezi `---` se spousti pri generovani staticky stranky
+    * z CMS se stahnout data
+    * data se poslou do sablony, kde se zobrazi jako list
 
 ## Content model
 
